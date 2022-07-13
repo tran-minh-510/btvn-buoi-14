@@ -1,0 +1,144 @@
+html{
+    font-size: 16px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    color: #3f3424;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #322a1d;
+}
+
+body{
+    font-family: 'Asap', sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #333;
+}
+
+.posts-box{
+    padding: 30px 0;
+    background: #eee;
+}
+
+.posts-box h2{
+    font-size: 1.25rem;
+    color: #3f3424;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.posts-box h2::after{
+    content: '';
+    display: block;
+    width: 65px;
+    height: 4px;
+    background: #cfa267;
+    margin-top: 5px;
+}
+
+.posts-box .post-item{
+    background: #fff;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px 1px #cccccc8f;
+}
+
+.posts-box .post-item::before{
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -15px;
+    display: block;
+    width: 75px;
+    height: 73px;
+    background: url('../images/diamond.png') no-repeat;
+}
+
+.posts-box .post-item img{
+    border-radius: 7px 7px 0 0 ;
+}
+
+.posts-box .post-item .post-info{
+    padding: 10px;
+}
+
+.posts-box .post-item .post-info h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.posts-box .post-item .post-info .area-price{
+    color: #ef5350;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.posts-box .post-item .post-info .area-price span:last-child::before{
+    content: '•';
+    font-size: 1.3rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.posts-box .post-item .post-info .address{
+    margin-bottom: 10px;
+}
+
+.posts-box .post-item .post-info .address::before{
+    content: "\f3c5";
+    width: 10px;
+    height: 10px;
+    display: block;
+    float: left;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    margin-right: 7px;
+}
+
+.posts-box .post-item .post-info .post-footer{
+    border-top: 1px solid #efefef;
+    padding-top: 10px;
+    display: flex;
+}
+
+.posts-box .post-item .post-info .post-footer span{
+    flex-grow: 1;
+}
+
+.posts-box .post-item .post-info .post-footer span:last-child{
+    text-align: right;
+}
+
+.posts-box .post-item .post-info .post-footer span:last-child a::before{
+    content: "\f004";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.posts-box .post-lists .row{
+    margin: 0 -12px;
+}
+
+.posts-box .post-lists .col{
+    padding: 0 12px;
+}
+
+.posts-box .post-lists .row-space .col{
+    padding-bottom: 24px;
+}
